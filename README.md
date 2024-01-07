@@ -8,8 +8,8 @@ stored inside the BRAM, then 3x3 kernel is transferred in each clock cycle to th
 Medain Filter using Intermediate Line Buffers between BRAM and the Pipelined Median
 Filter. After Median Filter operation, data is stored in BRAM and Binary Thresholding Filtering is done for gas pipeline detection. The data is extracted from BRAM after Binary
 Thresholding Filtering and compared with the MATLAB software simulated results.
-# work done on Matlab:
-1. Performed Median and Binary Thresholding Filtering on a 128x128 RGB Test image on MATLAB. Extract Raw Image data in binary format of a Test image using MATLAB.
+# Work done on Matlab:
+1. Performed Median and Binary Thresholding Filtering on a 128x128 RGB Test image on MATLAB. Extract Raw Image data in binary format of a Test image using MATLAB.
 2. Implementation of Pipelined Median Filter and Binary Thresholding. Access
 3. On-chip Dual Port RAM using Altera-IP and store the raw data in the RAM
 4. Implementation of 4-Line Buffers for achieving Hardware Acceleration.
